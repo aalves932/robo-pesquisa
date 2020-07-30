@@ -1,0 +1,22 @@
+{
+  "name": "robo-pesquisa",
+  "version": "1.0.0",
+  "description": "Robo que efetua pesquisas a partir de uma palavra chave",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalves932/robo-pesquisa.git"
+  },
+  "author": "Andre Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalves932/robo-pesquisa/issues"
+  },
+  "homepage": "https://github.com/aalves932/robo-pesquisa#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
