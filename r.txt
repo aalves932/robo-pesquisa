@@ -1,0 +1,5 @@
+{
+  q: 'python',
+  apiKey: 'AIzaSyAvBnv6W4w6aE0kVHTRbO5zwu5hOa5VRjo',
+  cx: undefined
+}

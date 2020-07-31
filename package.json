@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/aalves932/robo-pesquisa#readme",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "algorithmia": "^0.3.10",
+    "google-trends-api": "^4.9.0",
+    "googleapis": "^57.0.0",
+    "readline-sync": "^1.4.10",
+    "rss-parser": "^3.9.0"
   }
 }
