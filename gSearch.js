@@ -16,7 +16,11 @@
 // Example:  node customsearch.js example_term
 
 const {google} = require('googleapis');
+const { games } = require('googleapis/build/src/apis/games');
 const customsearch = google.customsearch('v1');
+
+const gApiKey = require("./credentials/googleKeys.json").apiKey;
+const gCxKey  = require("./credentials/googleKeys.json").cx;
 
 // Ex: node customsearch.js
 //      "Google Node.js"
@@ -39,8 +43,8 @@ if (module === require.main) {
   // https://www.google.com/cse/create/new
   const options = {
     q: process.argv[2],
-    apiKey: 'AIzaSyAvBnv6W4w6aE0kVHTRbO5zwu5hOa5VRjo', //process.argv[3],
-    cx: '017576662512468239146:omuauf_lfve' //process.argv[4],
+    apiKey: gApiKey,                //process.argv[3],
+    cx: gCxKey                      //process.argv[4],
   };
   runSample(options).catch(console.error);
 }
