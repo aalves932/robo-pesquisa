@@ -21,6 +21,7 @@
     "google-trends-api": "^4.9.0",
     "googleapis": "^57.0.0",
     "readline-sync": "^1.4.10",
-    "rss-parser": "^3.9.0"
+    "rss-parser": "^3.9.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
