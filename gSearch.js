@@ -35,7 +35,7 @@ async function runSample(options) {
     q: options.q,
     auth: options.apiKey,
   });
-  console.log(res.data);
+  console.log(res.data.items);
   return res.data;
 }
 
